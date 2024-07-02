@@ -38,3 +38,23 @@ console.log(typeof anotherId);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+
+// stack (premitive) Heap(non premitive)
+
+let myYoutubename = "per"
+let anothername = myYoutubename
+anothername = "test"
+console.log(anothername);
+console.log(myYoutubename);
+
+let userone = {
+    email : "per@gmail.com",
+    upi : "user@gmail"
+
+}
+
+let usertwo = userone
+usertwo.email = "user@gmail.com"
+console.log(userone.email);
+console.log(usertwo.email);
